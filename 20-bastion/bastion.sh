@@ -34,3 +34,6 @@ curl -sS https://webinstall.dev/k9s | bash
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
 chmod 700 get_helm.sh
 ./get_helm.sh
+
+#Mysql installation, to connect to db and load schema. This generally taken care by db team
+sudo dnf install mysql -y
